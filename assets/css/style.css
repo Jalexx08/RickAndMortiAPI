@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -32,7 +33,7 @@ body{
 }
 
 .divHeader ul li .page-link:hover {
-	background-color: blueviolet;
+	background-color: rgb(135, 67, 199);
     color: white;
 }
 
@@ -44,7 +45,6 @@ body{
 }
 
 .cover {
-    /* height: 350px; */
     background-image: url(../img/Portal.png);
     background-size: cover;
     background-position: center;
