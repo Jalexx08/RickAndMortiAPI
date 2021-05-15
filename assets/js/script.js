@@ -18,11 +18,11 @@ const getData = (api) => {
 
 const dibujarData = (data) => {
 	let html = "";
-	html += '<div class ="row row-cols-auto">';
+	html += '<div class ="row row-cols-auto g-5 d-flex justify-content-center">';
 	data.forEach((pj) => {
 		html += '  <div class ="col">';
 		html += '   <div class="card" style="width: 18rem;">';
-		html += `      <img src="${pj.image}" class="card-img-top" alt="Rick">`;
+		html += `      <img src="${pj.image}" class="card-img-top" alt="RickAndMortyPicture">`;
 		html += '      <div class="card-body">';
 		html += `          <h5 class="card-title">${pj.name}</h5>`;
 		html += `          <p class="card-text">${pj.gender}</p>`;
