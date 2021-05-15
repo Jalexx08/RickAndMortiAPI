@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.divHeader {
+    width: 100%;
+}
+.divHeader .header {
+    width: 100%;
+    color: #FFF;
+}
+
+.styleContainer {
+    position: relative;
+    top: 130px;
+}
+
+.footer {
+    color: #FFF;
+    font: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
